@@ -1,0 +1,37 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "Root",
+        "principalId": "444455556666",
+        "arn": "arn:aws:iam::444455556666:root",
+        "accountId": "444455556666",
+        "accessKeyId": ""
+    },
+    "eventTime": "2023-07-13T03:04:43Z",
+    "eventSource": "signin.amazonaws.com",
+    "eventName": "ConsoleLogin",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "192.0.2.0",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+    "requestParameters": null,
+    "responseElements": {
+        "ConsoleLogin": "Success"
+    },
+    "additionalEventData": {
+        "LoginTo": "https://ap-southeast-1.console.aws.amazon.com/ec2/home?region=ap-southeast-1&state=hashArgs%23Instances%3Av%3D3%3B%24case%3Dtags%3Atrue%255C%2Cclient%3Afalse%3B%24regex%3Dtags%3Afalse%255C%2Cclient%3Afalse&isauthcode=true",
+        "MobileVersion": "No",
+        "MFAIdentifier": "arn:aws:iam::444455556666:mfa/root-account-mfa-device",
+        "MFAUsed": "Yes"
+    },
+    "eventID": "e0176723-ea76-4275-83a3-EXAMPLEf03fb",
+    "readOnly": false,
+    "eventType": "AwsConsoleSignIn",
+    "managementEvent": true,
+    "recipientAccountId": "444455556666",
+    "eventCategory": "Management",
+    "tlsDetails": {
+        "tlsVersion": "TLSv1.3",
+        "cipherSuite": "TLS_AES_128_GCM_SHA256",
+        "clientProvidedHostHeader": "signin.aws.amazon.com"
+    }
+}
