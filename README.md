@@ -32,7 +32,7 @@ The goal of Week 1 was simple: remove friction. If I can’t reliably test, comm
 
 ---
 
-### Week 2 -- Getting logs flowing (and generating real security-relevant activity)
+### Week 2 - Getting logs flowing (and generating real security-relevant activity)
 
 Week 2 was about proving the foundation: CloudTrail is logging correctly, logs land in S3, and I can trigger the kinds of events a real SOC cares about.
 
