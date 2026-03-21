@@ -1,0 +1,425 @@
+[
+  {
+    "eventVersion": "1.11",
+    "userIdentity": {
+      "type": "IAMUser",
+      "principalId": "AIDAZLFAFU3UWYNWYUXKO",
+      "arn": "arn:aws:iam::642433525481:user/iamadmin",
+      "accountId": "642433525481",
+      "userName": "iamadmin"
+    },
+    "eventTime": "2026-03-20T23:22:39Z",
+    "eventSource": "signin.amazonaws.com",
+    "eventName": "ConsoleLogin",
+    "awsRegion": "us-east-2",
+    "sourceIPAddress": "216.188.239.21",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/146.0.7680.40 Mobile/15E148 Safari/604.1",
+    "requestParameters": null,
+    "responseElements": {
+      "ConsoleLogin": "Success"
+    },
+    "additionalEventData": {
+      "LoginTo": "https://console.aws.amazon.com/console/home?ca-oauth-flow-id=1581&hashArgs=%23&isauthcode=true&oauthStart=1773694330954&state=hashArgsFromTB_us-east-2_2444e618ed32c9ae",
+      "MobileVersion": "No",
+      "MFAIdentifier": "arn:aws:iam::642433525481:mfa/BushidoLink-IAM",
+      "MFAUsed": "Yes"
+    },
+    "eventID": "7781eff9-5f14-4683-99dc-fb399f225173",
+    "readOnly": false,
+    "eventType": "AwsConsoleSignIn",
+    "managementEvent": true,
+    "recipientAccountId": "642433525481",
+    "eventCategory": "Management",
+    "tlsDetails": {
+      "tlsVersion": "TLSv1.3",
+      "cipherSuite": "TLS_AES_128_GCM_SHA256",
+      "clientProvidedHostHeader": "us-east-2.signin.aws.amazon.com"
+    }
+  },
+  {
+    "eventVersion": "1.11",
+    "userIdentity": {
+      "type": "IAMUser",
+      "principalId": "AIDAZLFAFU3UWYNWYUXKO",
+      "arn": "arn:aws:iam::642433525481:user/iamadmin",
+      "accountId": "642433525481",
+      "accessKeyId": "ASIAZLFAFU3UQ34SFBPP",
+      "userName": "iamadmin",
+      "sessionContext": {
+        "attributes": {
+          "creationDate": "2026-03-20T23:03:31Z",
+          "mfaAuthenticated": "true"
+        }
+      }
+    },
+    "eventTime": "2026-03-20T23:24:06Z",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "CreateUser",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "216.188.239.21",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "requestParameters": {
+      "userName": "iamuser"
+    },
+    "responseElements": {
+      "user": {
+        "path": "/",
+        "userName": "iamuser",
+        "userId": "AIDAZLFAFU3U72AMUKOUE",
+        "arn": "arn:aws:iam::642433525481:user/iamuser",
+        "createDate": "Mar 20, 2026, 11:24:06 PM"
+      }
+    },
+    "requestID": "5e7044cc-699c-493c-8775-b11ce7491362",
+    "eventID": "1f4acfb4-67ea-4a21-b230-be32d009e564",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "642433525481",
+    "eventCategory": "Management",
+    "tlsDetails": {
+      "tlsVersion": "TLSv1.3",
+      "cipherSuite": "TLS_AES_128_GCM_SHA256",
+      "clientProvidedHostHeader": "iam.amazonaws.com"
+    },
+    "sessionCredentialFromConsole": "true"
+  },
+  {
+    "eventVersion": "1.11",
+    "userIdentity": {
+      "type": "IAMUser",
+      "principalId": "AIDAZLFAFU3UWYNWYUXKO",
+      "arn": "arn:aws:iam::642433525481:user/iamadmin",
+      "accountId": "642433525481",
+      "accessKeyId": "ASIAZLFAFU3UQ34SFBPP",
+      "userName": "iamadmin",
+      "sessionContext": {
+        "attributes": {
+          "creationDate": "2026-03-20T23:03:31Z",
+          "mfaAuthenticated": "true"
+        }
+      }
+    },
+    "eventTime": "2026-03-20T23:24:06Z",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "AttachUserPolicy",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "216.188.239.21",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "requestParameters": {
+      "userName": "iamuser",
+      "policyArn": "arn:aws:iam::aws:policy/AdministratorAccess"
+    },
+    "responseElements": null,
+    "requestID": "870fde6c-cc5a-4e81-a77c-c80312c02764",
+    "eventID": "f0754ad0-8f51-4ba3-8a68-85fa3c9ffe4a",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "642433525481",
+    "eventCategory": "Management",
+    "tlsDetails": {
+      "tlsVersion": "TLSv1.3",
+      "cipherSuite": "TLS_AES_128_GCM_SHA256",
+      "clientProvidedHostHeader": "iam.amazonaws.com"
+    },
+    "sessionCredentialFromConsole": "true"
+  },
+  {
+    "eventVersion": "1.11",
+    "userIdentity": {
+      "type": "IAMUser",
+      "principalId": "AIDAZLFAFU3UWYNWYUXKO",
+      "arn": "arn:aws:iam::642433525481:user/iamadmin",
+      "accountId": "642433525481",
+      "accessKeyId": "ASIAZLFAFU3UQJY6NAKV",
+      "userName": "iamadmin",
+      "sessionContext": {
+        "attributes": {
+          "creationDate": "2026-03-20T23:03:31Z",
+          "mfaAuthenticated": "true"
+        }
+      }
+    },
+    "eventTime": "2026-03-20T23:26:32Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "AuthorizeSecurityGroupIngress",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "216.188.239.21",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "requestParameters": {
+      "groupId": "sg-0103f28f49d31d485",
+      "ipPermissions": {
+        "items": [
+          {
+            "ipProtocol": "tcp",
+            "fromPort": 22,
+            "toPort": 22,
+            "groups": {},
+            "ipRanges": {
+              "items": [
+                {
+                  "cidrIp": "0.0.0.0/0"
+                }
+              ]
+            },
+            "ipv6Ranges": {},
+            "prefixListIds": {}
+          }
+        ]
+      }
+    },
+    "responseElements": {
+      "requestId": "1a4a9f54-0828-4839-9e99-2c9c4d87fd1f",
+      "_return": true,
+      "securityGroupRuleSet": {
+        "items": [
+          {
+            "groupOwnerId": "642433525481",
+            "groupId": "sg-0103f28f49d31d485",
+            "securityGroupRuleId": "sgr-0197ac47197f2c463",
+            "isEgress": false,
+            "ipProtocol": "tcp",
+            "fromPort": 22,
+            "toPort": 22,
+            "cidrIpv4": "0.0.0.0/0",
+            "securityGroupRuleArn": "arn:aws:ec2:us-east-1:642433525481:security-group-rule/sgr-0197ac47197f2c463"
+          }
+        ]
+      }
+    },
+    "requestID": "1a4a9f54-0828-4839-9e99-2c9c4d87fd1f",
+    "eventID": "644b2738-487b-45d7-8a97-bfe5683ebfc8",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "642433525481",
+    "eventCategory": "Management",
+    "tlsDetails": {
+      "tlsVersion": "TLSv1.3",
+      "cipherSuite": "TLS_AES_128_GCM_SHA256",
+      "clientProvidedHostHeader": "ec2.us-east-1.amazonaws.com"
+    },
+    "sessionCredentialFromConsole": "true"
+  },
+  {
+    "eventVersion": "1.11",
+    "userIdentity": {
+      "type": "IAMUser",
+      "principalId": "AIDAZLFAFU3UWYNWYUXKO",
+      "arn": "arn:aws:iam::642433525481:user/iamadmin",
+      "accountId": "642433525481",
+      "accessKeyId": "ASIAZLFAFU3UROQDGZHA",
+      "userName": "iamadmin",
+      "sessionContext": {
+        "attributes": {
+          "creationDate": "2026-03-20T23:03:31Z",
+          "mfaAuthenticated": "true"
+        }
+      }
+    },
+    "eventTime": "2026-03-20T23:08:34Z",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "PutBucketPolicy",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "216.188.239.21",
+    "userAgent": "[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36]",
+    "requestParameters": {
+      "bucketPolicy": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "AWSCloudTrailAclCheck20150319-20d6fc63-eb45-41d4-b865-af4f5560fd02",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "cloudtrail.amazonaws.com"
+            },
+            "Action": "s3:GetBucketAcl",
+            "Resource": "arn:aws:s3:::soc-pipeline-cloudtrail-log-db",
+            "Condition": {
+              "StringEquals": {
+                "AWS:SourceArn": "arn:aws:cloudtrail:us-east-1:642433525481:trail/soc-pipeline-trail"
+              }
+            }
+          },
+          {
+            "Sid": "AWSCloudTrailWrite20150319-4fe2b548-52e2-4f5d-aaba-94221983d9bc",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "cloudtrail.amazonaws.com"
+            },
+            "Action": "s3:PutObject",
+            "Resource": "arn:aws:s3:::soc-pipeline-cloudtrail-log-db/AWSLogs/642433525481/*",
+            "Condition": {
+              "StringEquals": {
+                "s3:x-amz-acl": "bucket-owner-full-control",
+                "AWS:SourceArn": "arn:aws:cloudtrail:us-east-1:642433525481:trail/soc-pipeline-trail"
+              }
+            }
+          }
+        ]
+      },
+      "bucketName": "soc-pipeline-cloudtrail-log-db",
+      "Host": "soc-pipeline-cloudtrail-log-db.s3.us-east-1.amazonaws.com",
+      "policy": ""
+    },
+    "responseElements": null,
+    "additionalEventData": {
+      "SignatureVersion": "SigV4",
+      "CipherSuite": "TLS_AES_128_GCM_SHA256",
+      "bytesTransferredIn": 788,
+      "AuthenticationMethod": "AuthHeader",
+      "x-amz-id-2": "BfdsIPJOXJFzexn+85BFaKltF5AqvpBRW7fjDK800GCEVFXsXaUEXgmjt2qmGTVpBYi02Owv+Co=",
+      "bytesTransferredOut": 0
+    },
+    "requestID": "XQH5R27EPST2GVHE",
+    "eventID": "dc0aaa74-5c7d-4f02-90d0-ee2a1a925cf7",
+    "readOnly": false,
+    "resources": [
+      {
+        "accountId": "642433525481",
+        "type": "AWS::S3::Bucket",
+        "ARN": "arn:aws:s3:::soc-pipeline-cloudtrail-log-db"
+      }
+    ],
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "642433525481",
+    "eventCategory": "Management",
+    "tlsDetails": {
+      "tlsVersion": "TLSv1.3",
+      "cipherSuite": "TLS_AES_128_GCM_SHA256",
+      "clientProvidedHostHeader": "soc-pipeline-cloudtrail-log-db.s3.us-east-1.amazonaws.com"
+    }
+  },
+  {
+    "eventVersion": "1.11",
+    "userIdentity": {
+      "type": "IAMUser",
+      "principalId": "AIDAZLFAFU3UWYNWYUXKO",
+      "arn": "arn:aws:iam::642433525481:user/iamadmin",
+      "accountId": "642433525481",
+      "accessKeyId": "ASIAZLFAFU3U5RRAYYXH",
+      "userName": "iamadmin",
+      "sessionContext": {
+        "attributes": {
+          "creationDate": "2026-03-20T23:03:31Z",
+          "mfaAuthenticated": "true"
+        }
+      }
+    },
+    "eventTime": "2026-03-20T23:04:51Z",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "PutBucketPolicy",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "216.188.239.21",
+    "userAgent": "[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36]",
+    "requestParameters": {
+      "bucketPolicy": {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Sid": "AWSCloudTrailAclCheck20150319-f9e34cab-7eb4-4238-b028-7bb3d100bb28",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "cloudtrail.amazonaws.com"
+            },
+            "Action": "s3:GetBucketAcl",
+            "Resource": "arn:aws:s3:::aws-cloudtrail-logs-642433525481-0a54a933",
+            "Condition": {
+              "StringEquals": {
+                "AWS:SourceArn": "arn:aws:cloudtrail:us-east-1:642433525481:trail/soc-pipeline-trail"
+              }
+            }
+          },
+          {
+            "Sid": "AWSCloudTrailWrite20150319-ae803c31-268e-417b-8da5-a8c706cf618b",
+            "Effect": "Allow",
+            "Principal": {
+              "Service": "cloudtrail.amazonaws.com"
+            },
+            "Action": "s3:PutObject",
+            "Resource": "arn:aws:s3:::aws-cloudtrail-logs-642433525481-0a54a933/AWSLogs/642433525481/*",
+            "Condition": {
+              "StringEquals": {
+                "s3:x-amz-acl": "bucket-owner-full-control",
+                "AWS:SourceArn": "arn:aws:cloudtrail:us-east-1:642433525481:trail/soc-pipeline-trail"
+              }
+            }
+          }
+        ]
+      },
+      "bucketName": "aws-cloudtrail-logs-642433525481-0a54a933",
+      "Host": "aws-cloudtrail-logs-642433525481-0a54a933.s3.us-east-1.amazonaws.com",
+      "policy": ""
+    },
+    "responseElements": null,
+    "additionalEventData": {
+      "SignatureVersion": "SigV4",
+      "CipherSuite": "TLS_AES_128_GCM_SHA256",
+      "bytesTransferredIn": 1060,
+      "AuthenticationMethod": "AuthHeader",
+      "x-amz-id-2": "7oLjhUx3kbp0E9ml62qBmkKfzYFKyg/9oLwpmaAuku38ieURlQHDgirF/iwFfrZaOVXIJc6SMuA=",
+      "bytesTransferredOut": 0
+    },
+    "requestID": "SWC29JRYDJN0MVX7",
+    "eventID": "2d75227f-d846-444d-a7e8-4d922ba1489f",
+    "readOnly": false,
+    "resources": [
+      {
+        "accountId": "642433525481",
+        "type": "AWS::S3::Bucket",
+        "ARN": "arn:aws:s3:::aws-cloudtrail-logs-642433525481-0a54a933"
+      }
+    ],
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "642433525481",
+    "eventCategory": "Management",
+    "tlsDetails": {
+      "tlsVersion": "TLSv1.3",
+      "cipherSuite": "TLS_AES_128_GCM_SHA256",
+      "clientProvidedHostHeader": "aws-cloudtrail-logs-642433525481-0a54a933.s3.us-east-1.amazonaws.com"
+    }
+  },
+  {
+    "eventVersion": "1.11",
+    "userIdentity": {
+      "type": "IAMUser",
+      "principalId": "AIDAZLFAFU3UWYNWYUXKO",
+      "arn": "arn:aws:iam::642433525481:user/iamadmin",
+      "accountId": "642433525481",
+      "accessKeyId": "ASIAZLFAFU3U6ZGLRIWL",
+      "userName": "iamadmin",
+      "sessionContext": {
+        "attributes": {
+          "creationDate": "2026-03-20T23:03:31Z",
+          "mfaAuthenticated": "true"
+        }
+      }
+    },
+    "eventTime": "2026-03-20T23:45:47Z",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "DeleteUser",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "216.188.239.21",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+    "requestParameters": {
+      "userName": "iamuser"
+    },
+    "responseElements": null,
+    "requestID": "49f8af77-f090-42eb-a570-2255171ac268",
+    "eventID": "259775c2-1374-4746-914d-d32fefc0ceaa",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "642433525481",
+    "eventCategory": "Management",
+    "tlsDetails": {
+      "tlsVersion": "TLSv1.3",
+      "cipherSuite": "TLS_AES_128_GCM_SHA256",
+      "clientProvidedHostHeader": "iam.amazonaws.com"
+    },
+    "sessionCredentialFromConsole": "true"
+  }
+]
