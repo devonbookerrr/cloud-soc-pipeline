@@ -49,17 +49,11 @@ Then I generated test activity on purpose (a mini “red team against my own acc
 These are the types of events I triggered and captured in CloudTrail (from my own account activity):
 
 1) ConsoleLogin (successful login; iPhone user-agent, MFA used)  
-
 2) CreateUser (created an IAM user: `iamuser`)  
-
 3) AttachUserPolicy (attached `AdministratorAccess` to `iamuser`)  
-
 4) AuthorizeSecurityGroupIngress (opened SSH `22` to `0.0.0.0/0` on a security group)  
-
 5) PutBucketPolicy (CloudTrail bucket policy write for my project log bucket: `soc-pipeline-cloudtrail-log-db`)  
-
 6) PutBucketPolicy (CloudTrail bucket policy write for the auto-named CloudTrail log bucket)  
-
 7) DeleteUser (deleted the IAM user: `iamuser`)
 
 The point of including these isn’t “look, I clicked around in AWS.” It’s to show that this pipeline is being built against real CloudTrail output, using the same categories of activity that drive real-world detection and response: authentication events, identity changes, network exposure, and storage policy changes.
